@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { View, ActivityIndicator, AsyncStorage, Text } from 'react-native';
+import { View, ActivityIndicator, AsyncStorage, Text, Image } from 'react-native';
 import * as firebase from 'firebase';
 import { FormLabel, FormInput, FormValidationMessage, Button } from 'react-native-elements';
+import { Facebook } from 'expo';
 
 import Spinner from '../components/Spinner';
 
@@ -57,7 +58,6 @@ onCreateUser = async () => {
     }
   }
 
-
 renderButton() {
     if (this.state.saving) {
       return <ActivityIndicator size='large' />;
@@ -67,7 +67,7 @@ renderButton() {
       <Button
         style={{ marginTop: 10 }}
         title='Add User'
-        onPress={this.onSaveInfo}
+        onPress={this.onCreateUser}
       />
     );
   }

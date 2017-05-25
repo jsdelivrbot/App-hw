@@ -76,7 +76,7 @@ class LoginScreen extends Component {
       await firebase.auth().signInWithEmailAndPassword(email, password);
       this.props.navigation.navigate('UserStack');
     } catch (err) {
-      this.onCreateUser();
+      this.setState({ error: err.message, loading: false });
     }
   }
 
@@ -91,7 +91,7 @@ class LoginScreen extends Component {
   }
 
 //Create New User
-   AddUserScreen = () =>{
+   AddUser = () =>{
     this.props.navigation.navigate('AddUserScreen');
   }
 
@@ -154,7 +154,7 @@ class LoginScreen extends Component {
           <Button 
             backgroundColor='#4AAF4C' 
             title = 'New User ?'
-            onPress={this.AddUserScreen}
+            onPress={this.AddUser}
             />
         </View>
         
