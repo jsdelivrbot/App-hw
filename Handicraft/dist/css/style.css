@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+}
+form a {
+  margin-left: 10px;
+}
+.topic{
+	position: absolute;
+	left: 45%;
+	font-size: 40pt;
+	font-weight: bold;
+	font-family: 'Times New Roman';
+}
+.topic img{
+	position: absolute;
+}
+.topic font{
+	color:#f77f7f;
+}
+
+
+.int1{
+	float: left;
+	text-align: center;
+	margin-top: 70pt;
+	margin-left: 75pt;
+}
+.int1 img{
+	width: 200pt;
+}
+.int1 h3{
+	position: relative;
+	top: 10pt;
+}
+
+.int2{
+	float: left;
+	text-align: center;
+	margin-top: 70pt;
+	margin-left: 75pt;
+}
+.int2 img{
+	width: 200pt;
+}
+.int2 h3{
+	position: relative;
+	top: 10pt;
+}
+
+.int3{
+	float: left;
+	text-align: center;
+	margin-top: 70pt;
+	margin-left: 75pt;
+}
+.int3 img{
+	width: 200pt;
+}
+.int3 h3{
+	position: relative;
+	top: 10pt;
+}
+
+.cont1 {
+	position: relative;
+	top: 40pt;
+}
+.cont1 img{
+	float: left;
+}
+.cont1 div{
+	float: left;
+	position: relative;
+	left: 15pt;
+}
+
+.cont2 {
+	position: relative;
+	top: 40pt;
+}
+.cont2 img{
+	float: left;
+}
+.cont2 div{
+	float: left;
+	position: relative;
+	left: 15pt;
+}
+
+.cont3 {
+	position: relative;
+	top: 40pt;
+}
+.cont3 img{
+	float: left;
+}
+.cont3 div{
+	float: left;
+	position: relative;
+	left: 15pt;
+}
+
+.cont4 {
+	position: relative;
+	top: 40pt;
+}
+.cont4 img{
+	float: left;
+}
+.cont4 div{
+	float: left;
+	position: relative;
+	left: 15pt;
+}
+
+.line{
+	background-color: #f77f7f;
+	width: 100%;
+	height: 2pt;
+	margin-top:5pt;
+	margin-bottom: 5pt; 
+}
+
+.text{
+	top: 15pt;
+}
+
+.post{
+	position: absolute;
+	top: 1550pt;
+	left: 40%;
+}
